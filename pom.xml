@@ -22,6 +22,9 @@
 		<spring.cloud.dependencies.version>2020.0.5</spring.cloud.dependencies.version>
 		<spring.cloud.netflix.dependencies.version>2.2.10.RELEASE</spring.cloud.netflix.dependencies.version>
 		<spring.cloud.alibaba.dependencies.version>2021.1</spring.cloud.alibaba.dependencies.version>
+
+		<mybatis.plus.version>3.5.1</mybatis.plus.version>
+		<mybatis.plus.boot.starter.version>3.5.1</mybatis.plus.boot.starter.version>
 	</properties>
 
 	<dependencyManagement>
@@ -61,7 +64,12 @@
 			<dependency>
 				<groupId>com.baomidou</groupId>
 				<artifactId>mybatis-plus</artifactId>
-				<version>3.5.1</version>
+				<version>${mybatis.plus.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<version>${mybatis.plus.boot.starter.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

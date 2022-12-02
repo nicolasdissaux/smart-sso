@@ -1,7 +1,9 @@
 package com.smart.system.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.smart.core.entity.BaseEntity;
 
+@TableName("sys_user")
 public class User extends BaseEntity {
     /**
      * 账号
