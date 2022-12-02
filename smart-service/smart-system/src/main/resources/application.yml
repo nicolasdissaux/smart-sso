@@ -14,3 +14,10 @@ mybatis-plus:
   mapper-locations: classpath*:mapper/**/*.xml
   typeAliasesPackage: com.smart.**.entity
 
+#配置监控选项spring-boot-actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,env,beans,health,mappings,metrics
+
