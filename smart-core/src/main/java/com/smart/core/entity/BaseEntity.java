@@ -1,5 +1,4 @@
 package com.smart.core.entity;
-import com.smart.core.entity.Entity;
 
 /**
  * 基础持久化基类
