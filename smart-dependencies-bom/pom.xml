@@ -17,7 +17,6 @@
         <opentracing.version>0.30.0</opentracing.version>
         <maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
         <slf4j.log4j12.version>1.7.36</slf4j.log4j12.version>
-        <nist.url>http://e-proxy.yfb.sunline.cn/repos/offline/nist</nist.url>
         <sofa.rpc.verison>5.8.3</sofa.rpc.verison>
         <beetl.framework.starter.version>1.2.28.RELEASE</beetl.framework.starter.version>
         <jasypt.spring.boot.starter.version>3.0.3</jasypt.spring.boot.starter.version>
@@ -87,7 +86,6 @@
         <jersey.apache.client4.version>1.19.1</jersey.apache.client4.version>
         <xercesImpl.version>2.9.1</xercesImpl.version>
         <commons.beanutils.version>1.9.4</commons.beanutils.version>
-        <yfb.dev.releases.url>http://proxy.yfb.sunline.cn/nexus-dev/content/repositories/releases/</yfb.dev.releases.url>
         <springdoc.openapi.ui.version>1.5.5</springdoc.openapi.ui.version>
         <groovy-all.version>2.4.16</groovy-all.version>
         <bcprov-jdk15on.version>1.70</bcprov-jdk15on.version>
@@ -129,7 +127,6 @@
         <jparsec.version>2.0.1</jparsec.version>
         <cglib.nodep.version>3.2.6</cglib.nodep.version>
         <jmockit.version>1.49</jmockit.version>
-        <yfb.prod.releases.url>http://proxy.yfb.sunline.cn/nexus-prod/content/repositories/releases/</yfb.prod.releases.url>
         <druid.starter.version>1.2.8</druid.starter.version>
         <properties-maven-plugin.version>1.0.0</properties-maven-plugin.version>
         <knife4j-spring-boot-starter.version>2.0.9</knife4j-spring-boot-starter.version>
@@ -907,19 +904,6 @@
                 <configuration>
                     <source>${jdk.compiler.version}</source>
                     <target>${jdk.compiler.version}</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                        </manifest>
-                        <manifestEntries>
-                            <Implementation-Build>${project.build.timestamp}</Implementation-Build>
-                        </manifestEntries>
-                    </archive>
                 </configuration>
             </plugin>
         </plugins>
