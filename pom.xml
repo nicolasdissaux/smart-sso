@@ -11,6 +11,7 @@
 	<modules>
 		<module>smart-core</module>
 		<module>smart-dependencies-bom</module>
+		<module>smart-starter</module>
 	</modules>
 
 	<properties>
@@ -32,6 +33,12 @@
 				<scope>import</scope>
 			</dependency>
 
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<!-- swagger文档 -->
 			<dependency>
 				<groupId>io.swagger</groupId>
@@ -50,6 +57,20 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<dependencies>
+		<!-- lombok -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>
