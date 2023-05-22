@@ -14,5 +14,8 @@
     <modules>
         <module>smart-starter-exception</module>
         <module>smart-starter-i18n</module>
+        <module>smart-starter-resource</module>
+        <module>smart-starter-swagger</module>
+        <module>smart-starter-validation</module>
     </modules>
 </project>

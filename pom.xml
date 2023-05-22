@@ -12,6 +12,7 @@
 		<module>smart-core</module>
 		<module>smart-dependencies-bom</module>
 		<module>smart-starter</module>
+		<module>smart-starter-web</module>
 	</modules>
 
 	<properties>
@@ -21,6 +22,7 @@
 		<jdk.compiler.version>1.8</jdk.compiler.version>
 		<swagger2.annotations.version>1.5.20</swagger2.annotations.version>
 		<swagger3.annotations.version>2.1.2</swagger3.annotations.version>
+		<springfox.version>3.0.0</springfox.version>
 	</properties>
 
 	<dependencyManagement>
@@ -36,6 +38,31 @@
 			<dependency>
 				<groupId>com.smart</groupId>
 				<artifactId>smart-core</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-starter-exception</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-starter-i18n</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-starter-resource</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-starter-swagger</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.smart</groupId>
+				<artifactId>smart-starter-validation</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
