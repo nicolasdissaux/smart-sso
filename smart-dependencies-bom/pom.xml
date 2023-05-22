@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.smart</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <artifactId>smart-dependencies-bom</artifactId>
     <packaging>pom</packaging>
 
@@ -824,7 +824,7 @@
                 <plugin>
                     <groupId>org.eclipse.m2e</groupId>
                     <artifactId>lifecycle-mapping</artifactId>
-                    <version>1.0.0</version>
+                    <version>1.0.1</version>
                     <configuration>
                         <lifecycleMappingMetadata>
                             <pluginExecutions>
