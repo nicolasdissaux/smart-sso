@@ -32,7 +32,7 @@
             </exclusions>
         </dependency>
 
-        <!-- aps-stage-common公共装配能力 -->
+        <!-- smart公共装配能力 -->
         <dependency>
             <groupId>com.smart</groupId>
             <artifactId>smart-starter-exception</artifactId>

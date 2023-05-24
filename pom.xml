@@ -13,7 +13,8 @@
 		<module>smart-dependencies-bom</module>
 		<module>smart-starter</module>
 		<module>smart-starter-web</module>
-	</modules>
+        <module>smart-starter-web-mybatisplus</module>
+    </modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
