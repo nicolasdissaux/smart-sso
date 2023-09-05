@@ -1,0 +1,13 @@
+{
+    "name": "sso/test",
+    "description": "testsso",
+    "authors": [
+        {
+            "name": "dissaux"
+        }
+    ],
+    "require": {
+        "microsoft/microsoft-graph": "^1.92",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

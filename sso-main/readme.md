@@ -1,0 +1,1 @@
+Here is an application to test the SSO connectivity
